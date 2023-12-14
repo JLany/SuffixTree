@@ -1,0 +1,10 @@
+SuffixTree Search Algorithm
+
+Traverse with the input text on the tree
+If reached end of input while on the tree:
+	Land on a node if on an edge
+	If no children:
+		Print suffixIndex
+	DFS on this node to get number of leaf decendents
+	At each leaf:
+		Print suffixIndex

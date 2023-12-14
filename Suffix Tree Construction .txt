@@ -1,0 +1,13 @@
+Suffix Tree Construction 
+
+Acquire current node suffix length
+Compare current node's suffix with mine
+If my suffixPointer succeedes current node's (index + length):
+	If my text[suffixPointer] matches any child's text[idx]
+		Traverse to child
+
+If stopped earlier:
+	current node gets two new children:
+		One representing new suffix inserted
+		One representing the 
+	Mark current node as internal (-1)
